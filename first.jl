@@ -82,8 +82,7 @@ plot!(time,ITOYIV001, marker=:auto, linewidth=1.5, framestyle=:box, lc=:auto, la
 plot!(time,ITOYIV002, marker=:auto, linewidth=1.5, framestyle=:box, lc=:auto, label="ITOYIV002")
 plot!(time,ITOYIV005, marker=:auto, linewidth=1.5, framestyle=:box, lc=:auto, label="ITOYIV005")
 plot!(time,ITOYIII001, marker=:auto, linewidth=1.5, framestyle=:box, lc=:auto, label="ITOYIII001")
-plot!(time,ITOYIII004, marker=:auto, linewidth=1.5, framestyle=:box, lc=:auto, label="ITOYIII004")
-plot!(time,ITOYIII006, marker=:auto, linewidth=1.5, framestyle=:box, lc=:auto, label="ITOYIII006")
+plot!(time,ITOYIII004, marker=:auto, linewidth=1.5, framestyle=:box, lc=:auto, label="ITOYIII004"
 
 display(pt1)
 savefig("Figure 1b.png")
